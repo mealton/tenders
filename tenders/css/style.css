@@ -1,0 +1,9 @@
+.container{
+    padding-top: 60px;
+}
+button{
+    outline: none !important;
+}
+td .btn-danger{
+    margin-top: 5px;
+}
