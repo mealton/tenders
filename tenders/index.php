@@ -31,11 +31,11 @@ if (empty($_POST)) {
 <div class="container">
     <button class="add-tender btn btn-default">Добавить Тендер</button>
     <form action="#" class="hidden add-tender-form">
-        <input type="text" name="name" placeholder="Название тендера" class="form-control">
+        <input type="text" name="name" placeholder="Название тендера" class="form-control" required>
         <input type="hidden" name="date" value="<?=date('Y-m-d')?>">
         <input type="hidden" name="year" value="<?=date('Y')?>">
         <br>
-        <textarea name="code" placeholder="Код" class="form-control"></textarea>
+        <textarea name="code" placeholder="Код" class="form-control" required></textarea>
         <hr>
         <button type="button" class="cancel btn btn-default">Отмена</button>
         <button type="submit" class=" btn btn-default">Добавить тендер</button>
